@@ -29,35 +29,39 @@ const OrderTextContainer = styled(View)`
 
 export const FinishedOrdersScreen = () => {
   const route = useRoute();
-  const { subject } = route.params;
+  const errorText = () => {
+    return (
+      <View>
+        <Text>Nema dodane prodavnice</Text>
+      </View>
+    );
+  };
+
+  const subject = route.params?.subject;
+
+  const [latestSubject, setLatestSubject] = useState(null);
+
   const [inputtedValues, setInputtedValues] = useState([]);
+
   const handleAddValue = () => {
-    setInputtedValues((prevValues) => [...prevValues, subject]);
+    if (subject && Object.keys(subject).length > 0) {
+      setLatestSubject(subject);
+      setInputtedValues((prevValues) => [...prevValues, subject]);
+    }
   };
 
   useEffect(() => {
-    if (subject !== undefined) {
-      handleAddValue();
-    }
+    handleAddValue();
   }, [subject]);
 
   const keyExtractor = (item, index) => index.toString();
-  //   if(!subject || subject.length === 0) {
-  //     return <Text>Nema dodane prodavnice</Text>
-  //   }
-
-  const data = [subject];
 
   return (
     <View>
-      {!subject || subject.length === 0 ? (
-        <View>
-          <Text>Nema dodane prodavnice</Text>
-        </View>
-      ) : (
+      {inputtedValues.length > 0 ? (
         <FlatList
           data={inputtedValues}
-          keyExtractor={keyExtractor}
+          keyExtractor={(item, index) => index.toString()}
           renderItem={({ item }) => (
             <OrderContainer>
               <OrderTextContainer>
@@ -66,6 +70,8 @@ export const FinishedOrdersScreen = () => {
             </OrderContainer>
           )}
         />
+      ) : (
+        errorText()
       )}
     </View>
   );

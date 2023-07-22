@@ -28,7 +28,6 @@ export const OrdersScreen = ({ navigation }) => {
 
   const submitOrderButton = () => {
     navigation.navigate("Gotove Narudzbe", { subject });
-    navigation.navigate("Gotove Narudzbe", { subject });
     setShowCart(false);
     setSubject("");
   };
