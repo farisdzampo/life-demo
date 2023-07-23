@@ -27,12 +27,19 @@ const OrderTextContainer = styled(View)`
   justify-content: center;
 `;
 
+const ErrorText = styled(Text)`
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+`;
+
 export const FinishedOrdersScreen = () => {
   const route = useRoute();
   const errorText = () => {
     return (
       <View>
-        <Text>Nema dodane prodavnice</Text>
+        <ErrorText>Nema dodane prodavnice</ErrorText>
       </View>
     );
   };
@@ -61,7 +68,7 @@ export const FinishedOrdersScreen = () => {
       {inputtedValues.length > 0 ? (
         <FlatList
           data={inputtedValues}
-          keyExtractor={(item, index) => index.toString()}
+          keyExtractor={keyExtractor}
           renderItem={({ item }) => (
             <OrderContainer>
               <OrderTextContainer>

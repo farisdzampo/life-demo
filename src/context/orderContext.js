@@ -13,10 +13,56 @@ const OrderProvider = ({ children }) => {
   //     return updatedCart;
   //   });
   // };
-  const addOrderItem = (storeName, product) => {
-    if (product) {
-      setOrder((prevOrder) => [...prevOrder, product]); // Add the new item to the order state
+
+
+  // const addOrderItem = ( product) => {
+  //   const existingItem = order.find((item) => item.id === product.id);
+  //   if (product) {
+  //     setOrder((prevOrder) => [...prevOrder, product]); // Add the new item to the order state
+  //   }
+  // };
+
+  const addOrderItem = (product) => {
+    const existingItem = order.find((item) => item.id === product.id);
+
+    if (existingItem) {
+      // If the item already exists in the cart, update the quantity
+      setOrder((prevOrder) =>
+        prevOrder.map((item) =>
+          item.id === product.id
+            ? { ...item, pieces: item.pieces + 1 }
+            : item
+        )
+      );
+    } else {
+      // If the item is not in the cart, add it with an initial quantity of 1
+      setOrder((prevOrder) => [...prevOrder, product ]);
     }
+  };
+
+  const addPackageToItem = (product) => {
+    const existingItem = order.find((item) => item.id === product.id);
+
+    if (existingItem) {
+      // If the item already exists in the cart, update the quantity with the package amount multiplied by price
+      setOrder((prevOrder) =>
+        prevOrder.map((item) =>
+          item.id === product.id
+            ? { ...item, pieces: item.pieces + product.package }
+            : item
+        )
+      );
+    } else {
+      // If the item is not in the cart, add it with the package amount multiplied by price
+      setOrder((prevOrder) => [
+        ...prevOrder,
+        { ...product, pieces: product.package },
+      ]);
+    }
+  };
+
+  const resetOrder = (product) => {
+    setOrder([]);
   };
   const deleteOrder = (storeName) => {
     setOrder((prevOrder) =>
@@ -25,7 +71,7 @@ const OrderProvider = ({ children }) => {
   };
 
   return (
-    <OrderContext.Provider value={{ order, addOrderItem, deleteOrder }}>
+    <OrderContext.Provider value={{ order, addOrderItem, deleteOrder, resetOrder, addPackageToItem }}>
       {children}
     </OrderContext.Provider>
   );

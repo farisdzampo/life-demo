@@ -10,13 +10,14 @@ const OrdersContainer = styled(View)`
 `;
 
 const SubmitBtn = styled(Button)`
-  width: 120px;
-  padding: 2px;
+  width: 250px;
+  padding-top: 4px;
+  padding-bottom: 4px;
   margin: 20px auto;
 `;
 
 export const OrdersScreen = ({ navigation }) => {
-  // const { order, cart, addOrderItem, deleteOrder } = useOrderContext();
+  const { order, cart, resetOrder } = useOrderContext();
   const [subject, setSubject] = useState("");
   const [showCart, setShowCart] = useState(false);
 
@@ -28,6 +29,10 @@ export const OrdersScreen = ({ navigation }) => {
     setSubject(subj);
   };
 
+  // const handleResetOrder = () => {
+  //   resetOrder();
+  // };
+
   const submitStoreNameButton = () => {
     navigation.navigate("Proizvodi", { subject });
     setShowCart(true);
@@ -37,6 +42,7 @@ export const OrdersScreen = ({ navigation }) => {
     navigation.navigate("Gotove Narudzbe", { subject });
     setShowCart(false);
     setSubject("");
+    resetOrder();
   };
 
   return (
@@ -57,7 +63,7 @@ export const OrdersScreen = ({ navigation }) => {
         <>
           <Cart storeName={subject} />
           <SubmitBtn mode="contained" onPress={submitOrderButton}>
-            Potvrdi
+            DODAJ PRODAVNICU
           </SubmitBtn>
         </>
       )}

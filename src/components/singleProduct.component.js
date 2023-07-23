@@ -41,12 +41,16 @@ const ProductWrapper = styled(View)`
 `;
 
 export const SingleProduct = ({ product, storeName }) => {
-  const { order, cart, addOrderItem, deleteOrder } = useOrderContext();
+  const { order, cart, addOrderItem, deleteOrder, addPackageToItem } =
+    useOrderContext();
 
   const handleAddToCart = () => {
-    addOrderItem(storeName, product);
+    addOrderItem(product);
   };
 
+  const handleAddPackageToCart = () => {
+    addPackageToItem(product);
+  };
 
   return (
     <ScrollView>
@@ -72,7 +76,7 @@ export const SingleProduct = ({ product, storeName }) => {
             icon="plus"
             mode="contained"
             style={{ marginTop: 10 }}
-            onPress={() => console.log(product.price * product.package)}
+            onPress={handleAddPackageToCart}
             buttonColor="#2596be"
           >
             PAKET

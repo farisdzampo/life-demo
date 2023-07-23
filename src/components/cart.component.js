@@ -11,6 +11,13 @@ const StoreNameText = styled(Text)`
   margin-bottom: 10px;
 `;
 
+const TotalText = styled(Text)`
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 15px;
+`;
+
 const CartContainer = styled(View)``;
 
 const CartItemContainer = styled(View)`
@@ -20,11 +27,21 @@ const CartItemContainer = styled(View)`
 
 const CartItemText = styled(Text)`
   font-size: 20px;
-  margin-right: 20px;
+  margin-right: 10px;
 `;
 
 export const Cart = (props) => {
   const { order } = useOrderContext();
+
+  const calculateTotalPrice = (cart) => {
+    let totalPrice = 0;
+
+    cart.forEach((item) => {
+      totalPrice += item.pieces * item.price;
+    });
+
+    return totalPrice.toFixed(2);
+  };
 
   return (
     // <View>
@@ -48,13 +65,19 @@ export const Cart = (props) => {
                 style={{ width: 50, height: 50, marginBottom: 10 }}
               />
               <CartItemText>{item.name}</CartItemText>
-              <CartItemText>{item.price} KM</CartItemText>
-              <Text>total</Text>
+              {/* <CartItemText>{item.price} KM</CartItemText> */}
+              <CartItemText>{item.pieces}x</CartItemText>
+              <CartItemText>
+                TOTAL: {(item.price * item.pieces).toFixed(2)} KM
+              </CartItemText>
             </CartItemContainer>
           </View>
         )}
         keyExtractor={(item) => item.id.toString()}
       />
+      <View>
+        <TotalText>RAČUN UKUPNO: {calculateTotalPrice(order)} KM</TotalText>
+      </View>
     </View>
   );
 };
