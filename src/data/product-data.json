@@ -3,35 +3,35 @@
     "id": 1,
     "name": "Coca Cola 2/1",
     "price": 2.75,
-    "package": "6",
+    "package": 6,
     "image": "https://www.konzumshop.ba/images/products/031/03167351_1l.gif"
   },
   {
     "id": 2,
     "name": "Fanta Nar 2/1",
     "price": 2.5,
-    "package": "6",
+    "package": 6,
     "image": "https://dttradecompany.com/wp-content/uploads/2019/11/Fanta-orange-2l.jpg"
   },
   {
     "id": 3,
     "name": "To Jabuka 2/1",
     "price": 2.1,
-    "package": "6",
+    "package": 6,
     "image": "https://www.konzumshop.ba/images/products/014/01496009_1l.gif"
   },
   {
     "id": 4,
     "name": "To Narandza 2/1",
     "price": 2.55,
-    "package": "6",
+    "package": 6,
     "image": "https://www.konzumshop.ba/images/products/014/01496007_1l.gif"
   },
   {
     "id": 5,
     "name": "Frutko Nar 1/1",
     "price": 1.1,
-    "package": "12",
+    "package": 12,
     "image": "https://hercegovinavino.ba/wp-content/uploads/2021/09/Frutko-naranca-768x1024.png"
   }
 ]

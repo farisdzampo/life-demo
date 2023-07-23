@@ -2,6 +2,7 @@ import React from "react";
 import { View, Text, Image, ScrollView } from "react-native";
 import styled from "styled-components";
 import { Button } from "react-native-paper";
+import { useOrderContext } from "../context/orderContext";
 
 const ComponentContainer = styled(View)`
   flex-direction: row;
@@ -39,7 +40,14 @@ const ProductWrapper = styled(View)`
   border-color: #2596be;
 `;
 
-export const SingleProduct = ({ product }) => {
+export const SingleProduct = ({ product, storeName }) => {
+  const { order, cart, addOrderItem, deleteOrder } = useOrderContext();
+
+  const handleAddToCart = () => {
+    addOrderItem(storeName, product);
+  };
+
+
   return (
     <ScrollView>
       <ComponentContainer>
@@ -55,7 +63,7 @@ export const SingleProduct = ({ product }) => {
             icon="plus"
             mode="contained"
             style={{ marginTop: 10 }}
-            onPress={() => console.log(product.price)}
+            onPress={handleAddToCart}
             buttonColor="#2596be"
           >
             KOMAD

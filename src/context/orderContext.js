@@ -4,14 +4,19 @@ const OrderContext = createContext();
 
 const OrderProvider = ({ children }) => {
   const [order, setOrder] = useState([]);
-  const [cart, setCart] = useState({});
+  // const [cart, setCart] = useState({});
 
+  // const addOrderItem = (storeName, product) => {
+  //   setCart((prevCart) => {
+  //     const updatedCart = { ...prevCart };
+  //     updatedCart[storeName] = [...(updatedCart[storeName] || []), product];
+  //     return updatedCart;
+  //   });
+  // };
   const addOrderItem = (storeName, product) => {
-    setCart((prevCart) => {
-      const updatedCart = { ...prevCart };
-      updatedCart[storeName] = [...(updatedCart[storeName] || []), product];
-      return updatedCart;
-    });
+    if (product) {
+      setOrder((prevOrder) => [...prevOrder, product]); // Add the new item to the order state
+    }
   };
   const deleteOrder = (storeName) => {
     setOrder((prevOrder) =>
@@ -20,7 +25,7 @@ const OrderProvider = ({ children }) => {
   };
 
   return (
-    <OrderContext.Provider value={{ order, cart, addOrderItem, deleteOrder }}>
+    <OrderContext.Provider value={{ order, addOrderItem, deleteOrder }}>
       {children}
     </OrderContext.Provider>
   );
