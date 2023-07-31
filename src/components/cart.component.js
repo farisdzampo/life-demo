@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Button } from "react-native-paper";
 import { View, Text, FlatList, Image } from "react-native";
 import { useOrderContext } from "../context/orderContext";
 
@@ -18,6 +19,13 @@ const TotalText = styled(Text)`
   margin-top: 15px;
 `;
 
+const SubmitBtn = styled(Button)`
+  width: 250px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin: 20px auto;
+`;
+
 const CartContainer = styled(View)``;
 
 const CartItemContainer = styled(View)`
@@ -32,6 +40,9 @@ const CartItemText = styled(Text)`
 
 export const Cart = (props) => {
   const { order } = useOrderContext();
+  const finishCart = () => {
+    props.updateCartData(order);
+  };
 
   const calculateTotalPrice = (cart) => {
     let totalPrice = 0;
@@ -44,15 +55,6 @@ export const Cart = (props) => {
   };
 
   return (
-    // <View>
-    //   <Text>{props.storeName}</Text>
-    //   <FlatList
-    //     data={order.filter((item) => item.storeName === props.storeName)}
-    //     data={order}
-    //     renderItem={({ item }) => <Text>{item.product}</Text>}
-    //     keyExtractor={(item) => item.product.id.toString()}
-    //   />
-    // </View>
     <View>
       <StoreNameText>{props.storeName}</StoreNameText>
       <FlatList
@@ -78,6 +80,11 @@ export const Cart = (props) => {
       <View>
         <TotalText>RAČUN UKUPNO: {calculateTotalPrice(order)} KM</TotalText>
       </View>
+      {/* <View>
+        <SubmitBtn mode="contained" onPress={finishCart}>
+          ZAVRŠI RAČUN
+        </SubmitBtn>
+      </View> */}
     </View>
   );
 };

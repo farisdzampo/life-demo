@@ -17,20 +17,25 @@ const SubmitBtn = styled(Button)`
 `;
 
 export const OrdersScreen = ({ navigation }) => {
-  const { order, cart, resetOrder } = useOrderContext();
+  const { order, cart, resetOrder, setOrder } = useOrderContext();
+  // const [finishedCart, setFinishedCart] = useState([]);
   const [subject, setSubject] = useState("");
   const [showCart, setShowCart] = useState(false);
 
-  // const handleAddToCart = (storeName, product) => {
-  //   addOrderItem(storeName, product);
+  const cartInfo = [...order, subject];
+
+  // const updateCartData = (cartData) => {
+  //   //novo
+  //   setFinishedCart(cartData);
+  //   console.log("cartData", cartData);
   // };
 
   const handleSubjectChange = (subj) => {
     setSubject(subj);
   };
 
-  // const handleResetOrder = () => {
-  //   resetOrder();
+  // const handleAddSubject = () => {
+  //   setOrder([...order, subject]);
   // };
 
   const submitStoreNameButton = () => {
@@ -39,7 +44,10 @@ export const OrdersScreen = ({ navigation }) => {
   };
 
   const submitOrderButton = () => {
-    navigation.navigate("Gotove Narudzbe", { subject });
+    // updateCartData(); //novo
+    navigation.navigate("Gotove Narudzbe", { cartInfo }); //bilo subject
+    // handleAddSubject();
+    // console.log("finishedCart", finishedCart);
     setShowCart(false);
     setSubject("");
     resetOrder();
