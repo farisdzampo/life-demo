@@ -3,7 +3,7 @@ import { TouchableOpacity } from "react-native";
 import { useRoute } from "@react-navigation/native";
 import styled from "styled-components";
 import { List, Modal } from "react-native-paper";
-import { View, Text, FlatList } from "react-native";
+import { View, Text, FlatList, Image } from "react-native";
 // import { ModalComponent } from "../components/modal.component";
 
 const WrapperFull = styled(View)`
@@ -64,11 +64,35 @@ const ModalText = styled(Text)`
   background-color: white;
   width: 350px;
   font-size: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
   font-weight: bold;
   text-align: center;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+`;
+
+const ModalListText = styled(Text)`
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 12px;
+`;
+
+const ModalListTextContainer = styled(View)`
+  flex-direction: row;
+  align-items: center;
+  width: 350px;
+`;
+
+const TotalContainer = styled(View)`
+  padding: 10px;
+  background-color: white;
+  margin-bottom: 10px;
+`;
+
+const TotalText = styled(Text)`
+  font-weight: bold;
+  font-size: 16px;
 `;
 
 const ModalContentWrapper = ({ children }) => {
@@ -90,9 +114,6 @@ export const FinishedOrdersScreen = () => {
   };
   const cartInfo = route.params?.cartInfo;
 
-  // const [expanded, setExpanded] = useState(true);
-
-  // const handlePress = () => setExpanded(!expanded);
   const handleModalVisible = (item) => {
     setSelectedItem(item);
     setModalVisible(true);
@@ -110,27 +131,33 @@ export const FinishedOrdersScreen = () => {
 
   // const storeName = inputtedValues[inputtedValues.length - 1];
 
-  // const selectedCartInfo = cartInfo.filter(
-  //   (item, index) => item.name === selectedItem && index < dataArray.length - 1
-  // );
-
   //CARTINFO ARRAY CHANGE LOGIC
 
-  let isItemSelected = false; // Flag to indicate if the selectedItem is found in the array
-
-  const selectedCartInfo = cartInfo.filter((item) => {
-    if (typeof item === "string" && item === selectedItem) {
-      isItemSelected = true;
-      return false; // Exclude the selectedItem from the new array
-    }
-    return true; // Include other items in the new array
-  });
-
-  // The isItemSelected variable now tells us if the selectedItem is present in the array or not
-  // console.log("Is selectedItem found in the array?", isItemSelected);
-  // console.log("New array without selectedItem:", selectedCartInfo);
+  let isItemSelected = false; 
+  let selectedCartInfo;
+  if (cartInfo) {
+    selectedCartInfo = cartInfo.filter((item) => {
+      if (typeof item === "string" && item === selectedItem) {
+        isItemSelected = true;
+        return false; // Exclude the selectedItem from the new array
+      }
+      return true; // Include other items in the new array
+    });
+  } else {
+    errorText();
+  }
 
   const keyExtractor = (item, index) => index.toString();
+
+  const calculateTotalPrice = (cart) => {
+    let totalPrice = 0;
+
+    cart.forEach((item) => {
+      totalPrice += item.pieces * item.price;
+    });
+
+    return totalPrice.toFixed(2);
+  };
 
   return (
     <WrapperFull>
@@ -149,7 +176,7 @@ export const FinishedOrdersScreen = () => {
       ) : (
         errorText()
       )}
-      {modalVisible && ( // Only render the Modal when modalVisible is true
+      {modalVisible && ( 
         <Modal
           visible={modalVisible}
           onDismiss={() => setModalVisible(false)}
@@ -168,21 +195,28 @@ export const FinishedOrdersScreen = () => {
                   <FlatList
                     data={selectedCartInfo}
                     renderItem={({ item }) => (
-                      <View>
-                        <View>
-                          <Text>{item.name}</Text>
-                          <Text>{item.price} KM</Text>
-                          <Text>{item.pieces}x</Text>
-                          <Text>
+                      <View style={{marginTop: 10}}>
+                        <ModalListTextContainer>
+                          <Image
+                            source={{ uri: item.image }}
+                            style={{ width: 50, height: 50, marginBottom: 10 }}
+                          />
+                          <ModalListText>{item.price} KM</ModalListText>
+                          <ModalListText>{item.pieces}x</ModalListText>
+                          <ModalListText>
                             TOTAL: {(item.price * item.pieces).toFixed(2)} KM
-                          </Text>
-                        </View>
+                          </ModalListText>
+                        </ModalListTextContainer>
                       </View>
                     )}
                     keyExtractor={(item) => item.id.toString()}
                   />
                 </View>
-                {/* Add additional content for the modal if needed */}
+                <TotalContainer>
+                  <TotalText>
+                    UKUPNO: {calculateTotalPrice(selectedCartInfo)} KM
+                  </TotalText>
+                </TotalContainer>
               </>
             )}
             <ModalCloseBtn onPress={() => setModalVisible(false)}>
@@ -194,47 +228,3 @@ export const FinishedOrdersScreen = () => {
     </WrapperFull>
   );
 };
-
-{
-  /* <List.Accordion
-title="Controlled Accordion"
-left={props => <List.Icon {...props} icon="folder" />}
-expanded={expanded}
-onPress={handlePress}>
-<List.Item title="First item" />
-<List.Item title="Second item" />
-</List.Accordion>
-</List.Section> */
-}
-
-{
-  /* <OrderContainer>
-<OrderTextContainer>    
-  {typeof item === "string" && <OrderText>{item}</OrderText>}
-</OrderTextContainer>
-</OrderContainer> */
-}
-
-{
-  /* <View>
-      {inputtedValues.length > 0 ? (
-        <FlatList
-          data={inputtedValues}
-          keyExtractor={keyExtractor}
-          renderItem={({ item }) => (
-            <List.Accordion
-              title={typeof item === "string" && `${item}`}
-              left={(props) => <List.Icon {...props} icon="folder" />}
-              expanded={expanded}
-              onPress={handlePress}
-            >
-              <List.Item title="First item" />
-              <List.Item title="Second item" />
-            </List.Accordion>
-          )}
-        />
-      ) : (
-        errorText()
-      )}
-    </View> */
-}
