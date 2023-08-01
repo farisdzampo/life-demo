@@ -3,11 +3,14 @@ import { StyleSheet, Text, View } from "react-native";
 
 import { Searchbar } from "react-native-paper";
 
-const Search = () => {
+const Search = ({ onSearch }) => {
   const [searchKeyword, setSearchKeyword] = useState("");
 
-  const onChangeSearch = (keyword) => setSearchKeyword(keyword);
-  console.log(searchKeyword)
+  const onChangeSearch = (keyword) => {
+    setSearchKeyword(keyword);
+    onSearch(keyword); // Call the onSearch callback with the keyword
+  };
+
   return (
     <View style={styles.searchContainer}>
       <Searchbar
