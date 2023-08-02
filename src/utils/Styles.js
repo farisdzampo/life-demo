@@ -3,7 +3,11 @@ import styled from "styled-components";
 import { View, Text, Image, TouchableOpacity } from "react-native";
 
 export const WrapperFull = styled(View)`
-  height: 70%;
+
+`;
+
+export const FlatListContainer = styled(View)`
+  height: 100%;
 `;
 
 export const OrderContainer = styled(TouchableOpacity)`
@@ -94,4 +98,3 @@ export const TotalText = styled(Text)`
 export const ModalContentWrapper = ({ children }) => {
   return <ModalContent>{children}</ModalContent>;
 };
-

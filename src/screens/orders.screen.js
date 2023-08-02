@@ -24,19 +24,9 @@ export const OrdersScreen = ({ navigation }) => {
 
   const cartInfo = [...order, subject];
 
-  // const updateCartData = (cartData) => {
-  //   //novo
-  //   setFinishedCart(cartData);
-  //   console.log("cartData", cartData);
-  // };
-
   const handleSubjectChange = (subj) => {
     setSubject(subj);
   };
-
-  // const handleAddSubject = () => {
-  //   setOrder([...order, subject]);
-  // };
 
   const submitStoreNameButton = () => {
     navigation.navigate("Proizvodi", { subject });
@@ -44,10 +34,8 @@ export const OrdersScreen = ({ navigation }) => {
   };
 
   const submitOrderButton = () => {
-    // updateCartData(); //novo
-    navigation.navigate("Gotove Narudzbe", { cartInfo }); //bilo subject
-    // handleAddSubject();
-    // console.log("finishedCart", finishedCart);
+    navigation.navigate("Gotove Narudzbe", { cartInfo });
+    
     setShowCart(false);
     setSubject("");
     resetOrder();
