@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Button } from "react-native-paper";
-import { View, Text, FlatList, Image } from "react-native";
+import { View, Text, FlatList, Image, ScrollView } from "react-native";
 import { useOrderContext } from "../context/orderContext";
 
 const StoreNameText = styled(Text)`
@@ -31,17 +31,28 @@ const CartContainer = styled(View)``;
 const CartItemContainer = styled(View)`
   flex-direction: row;
   align-items: center;
+  justify-content: center;
 `;
 
 const CartItemText = styled(Text)`
   font-size: 20px;
   margin-right: 10px;
+  margin-left: 20px;
+  font-weight: 500;
+  color: #5a5a5a;
 `;
 
+const DeleteBtn = styled(Button)``;
+
 export const Cart = (props) => {
-  const { order } = useOrderContext();
+  const { order, deleteOrderItem } = useOrderContext();
   const finishCart = () => {
     props.updateCartData(order);
+  };
+
+  const deleteItem = (itemId) => {
+    deleteOrderItem(itemId);
+    console.log("AJTEM AJ DI", itemId);
   };
 
   const calculateTotalPrice = (cart) => {
@@ -66,25 +77,28 @@ export const Cart = (props) => {
                 source={{ uri: item.image }}
                 style={{ width: 50, height: 50, marginBottom: 10 }}
               />
-              <CartItemText>{item.name}</CartItemText>
-              {/* <CartItemText>{item.price} KM</CartItemText> */}
+              {/* <CartItemText>{item.name}</CartItemText> */}
               <CartItemText>{item.pieces}x</CartItemText>
               <CartItemText>
                 TOTAL: {(item.price * item.pieces).toFixed(2)} KM
               </CartItemText>
+              <DeleteBtn
+                icon="delete"
+                textColor="#a70000"
+                onPress={() => deleteItem(item.id)}
+              />
             </CartItemContainer>
           </View>
         )}
         keyExtractor={(item) => item.id.toString()}
       />
       <View>
-        <TotalText>RAČUN UKUPNO: {calculateTotalPrice(order)} KM</TotalText>
+        {order.length > 0 && order ? (
+          <TotalText>RAČUN UKUPNO: {calculateTotalPrice(order)} KM</TotalText>
+        ) : (
+          <TotalText>Dodaj proizvode</TotalText>
+        )}
       </View>
-      {/* <View>
-        <SubmitBtn mode="contained" onPress={finishCart}>
-          ZAVRŠI RAČUN
-        </SubmitBtn>
-      </View> */}
     </View>
   );
 };

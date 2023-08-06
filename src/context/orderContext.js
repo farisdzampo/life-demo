@@ -46,12 +46,17 @@ const OrderProvider = ({ children }) => {
     const cartInfo = [...order];
     setOrder([]);
   };
+
   const deleteOrder = (storeName) => {
     setOrder((prevOrder) =>
       prevOrder.filter((order) => order.storeName !== storeName)
     );
   };
 
+  const deleteOrderItem = (itemId) => {
+    setOrder((prevOrder) => prevOrder.filter((item) => item.id !== itemId));
+  };
+  
   return (
     <OrderContext.Provider
       value={{
@@ -61,6 +66,7 @@ const OrderProvider = ({ children }) => {
         setOrder,
         resetOrder,
         addPackageToItem,
+        deleteOrderItem,
       }}
     >
       {children}

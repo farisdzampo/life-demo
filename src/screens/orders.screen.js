@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { TextInput, Button } from "react-native-paper";
-import { View, Text } from "react-native";
+import { View, Text, ScrollView } from "react-native";
 import { styled } from "styled-components";
 import { Cart } from "../components/cart.component";
 import { useOrderContext } from "../context/orderContext";
 
-const OrdersContainer = styled(View)`
+const OrdersContainer = styled(ScrollView)`
   padding: 10px;
 `;
 
@@ -14,6 +14,7 @@ const SubmitBtn = styled(Button)`
   padding-top: 4px;
   padding-bottom: 4px;
   margin: 20px auto;
+  background-color: #2596be;
 `;
 
 export const OrdersScreen = ({ navigation }) => {
@@ -35,7 +36,7 @@ export const OrdersScreen = ({ navigation }) => {
 
   const submitOrderButton = () => {
     navigation.navigate("Gotove Narudzbe", { cartInfo });
-    
+
     setShowCart(false);
     setSubject("");
     resetOrder();

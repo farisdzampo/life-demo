@@ -2,9 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { View, Text, Image, TouchableOpacity } from "react-native";
 
-export const WrapperFull = styled(View)`
-
-`;
+export const WrapperFull = styled(View)``;
 
 export const FlatListContainer = styled(View)`
   height: 100%;
@@ -45,6 +43,7 @@ export const ModalCloseBtn = styled(TouchableOpacity)`
   padding-left: 10px;
   padding-right: 10px;
   background-color: #2596be;
+  margin-bottom: 5px;
 `;
 
 export const ModalCloseTxt = styled(Text)`
@@ -64,11 +63,11 @@ export const ModalText = styled(Text)`
   background-color: white;
   width: 350px;
   font-size: 24px;
-  margin-bottom: 35px;
   font-weight: bold;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
+  letter-spacing: 1px;
 `;
 
 export const ModalListText = styled(Text)`
@@ -88,6 +87,8 @@ export const TotalContainer = styled(View)`
   padding: 10px;
   background-color: white;
   margin-bottom: 10px;
+  border: 1px solid;
+  border-color: #2596be;
 `;
 
 export const TotalText = styled(Text)`

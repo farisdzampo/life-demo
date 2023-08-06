@@ -9,7 +9,10 @@ const Tab = createBottomTabNavigator();
 
 export const AppNavigator = () => {
   return (
-    <Tab.Navigator>
+    <Tab.Navigator
+      screenOptions={{ tabBarActiveTintColor: "#2596be" }}
+      initialRouteName="Narudzba"
+    >
       <Tab.Screen
         name="Proizvodi"
         options={{

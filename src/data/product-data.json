@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Coca Cola 2/1",
+    "name": "Coca Cola 2L",
     "price": 2.75,
     "pieces": 1,
     "package": 6,
@@ -9,15 +9,15 @@
   },
   {
     "id": 2,
-    "name": "Fanta Nar 2/1",
+    "name": "Fanta Nar 2L",
     "price": 2.5,
     "pieces": 1,
     "package": 6,
-    "image": "https://dttradecompany.com/wp-content/uploads/2019/11/Fanta-orange-2l.jpg"
+    "image": "https://www.konzumshop.ba/images/products/031/03167364_1l.gif"
   },
   {
     "id": 3,
-    "name": "To Jabuka 2/1",
+    "name": "To Jabuka 2L",
     "price": 2.1,
     "pieces": 1,
     "package": 6,
@@ -25,7 +25,7 @@
   },
   {
     "id": 4,
-    "name": "To Narandza 2/1",
+    "name": "To Narandza 2L",
     "price": 2.55,
     "pieces": 1,
     "package": 6,
@@ -33,10 +33,106 @@
   },
   {
     "id": 5,
-    "name": "Frutko Nar 1/1",
+    "name": "Frutko Nar 1L",
     "price": 1.1,
     "pieces": 1,
     "package": 12,
     "image": "https://hercegovinavino.ba/wp-content/uploads/2021/09/Frutko-naranca-768x1024.png"
+  },
+  {
+    "id": 6,
+    "name": "Saraj. Kis 1.5L",
+    "price": 1.1,
+    "pieces": 1,
+    "package": 6,
+    "image": "https://www.konzumshop.ba/images/products/031/03180015_1l.gif"
+  },
+  {
+    "id": 7,
+    "name": "Senzacija 1.5L",
+    "price": 1.5,
+    "pieces": 1,
+    "package": 6,
+    "image": "https://www.konzumshop.ba/images/products/902/90275099_1l.gif"
+  },
+  {
+    "id": 8,
+    "name": "Sky Cola 2L",
+    "price": 1.6,
+    "pieces": 1,
+    "package": 6,
+    "image": "https://www.konzumshop.ba/images/products/031/03160141_1l.gif"
+  },
+  {
+    "id": 9,
+    "name": "Sky Nar 2L",
+    "price": 1.5,
+    "pieces": 1,
+    "package": 6,
+    "image": "https://www.konzumshop.ba/images/products/031/03160142_1l.gif"
+  },
+  {
+    "id": 10,
+    "name": "Sky Limun 1L",
+    "price": 1.5,
+    "pieces": 1,
+    "package": 6,
+    "image": "https://www.konzumshop.ba/images/products/031/03160143_1l.gif"
+  },
+  {
+    "id": 11,
+    "name": "Vit Kruska 1.5L",
+    "price": 1.85,
+    "pieces": 1,
+    "package": 6,
+    "image": "https://www.vitinka.com/img/boce/exotic/kruska/pet-15.png"
+  },
+  {
+    "id": 12,
+    "name": "Vit Kruska 0.5L",
+    "price": 1.05,
+    "pieces": 1,
+    "package": 12,
+    "image": "https://www.vitinka.com/img/boce/exotic/kruska/pet-15.png"
+  },
+  {
+    "id": 13,
+    "name": "Led Caj 0.5L",
+    "price": 0.9,
+    "pieces": 1,
+    "package": 12,
+    "image": "https://www.e-natoci.ba/b2cadmin/files/products/images/60366345b6f6e0.88765978.png"
+  },
+  {
+    "id": 14,
+    "name": "Fructal Jab 1L",
+    "price": 1.9,
+    "pieces": 1,
+    "package": 12,
+    "image": "https://www.konzumshop.ba/images/products/030/03040399.gif"
+  },
+  {
+    "id": 15,
+    "name": "Fructal Nar 1L",
+    "price": 2.05,
+    "pieces": 1,
+    "package": 12,
+    "image": "https://www.konzumshop.ba/images/products/014/01496640_1l.gif"
+  },
+  {
+    "id": 16,
+    "name": "Fruc Mrkva 1.5L",
+    "price": 2.1,
+    "pieces": 1,
+    "package": 6,
+    "image": "https://www.fructal.si/img/products/slide_fruc_mrkva_naranca_limun_15.png"
+  },
+  {
+    "id": 17,
+    "name": "Fruc Ribiz 1.5L",
+    "price": 2.1,
+    "pieces": 1,
+    "package": 6,
+    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
   }
 ]

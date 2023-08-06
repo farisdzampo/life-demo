@@ -108,7 +108,7 @@ export const FinishedOrdersScreen = () => {
                   return cart.map((item, index) => {
                     if (typeof item !== "string") {
                       return (
-                        <View key={index} style={{ marginTop: 10 }}>
+                        <View key={index}>
                           <ModalListTextContainer>
                             <Image
                               source={{ uri: item.image }}
