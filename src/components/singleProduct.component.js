@@ -14,6 +14,7 @@ const ComponentContainer = styled(View)`
 const NameText = styled.Text`
   font-weight: bold;
   font-size: 16px;
+  text-align: center;
 `;
 
 const PriceText = styled.Text`
@@ -22,12 +23,6 @@ const PriceText = styled.Text`
   font-size: 16px;
 `;
 
-// const ProductImg = styled(Image)`
-//   border-width: 0px;
-//   border-style: solid;
-//   border-color: #2596be;
-//   border-radius: 6px;
-// `;
 
 const ProductWrapper = styled(View)`
   padding: 20px;
@@ -79,7 +74,7 @@ export const SingleProduct = ({ product, storeName }) => {
             onPress={handleAddPackageToCart}
             buttonColor="#2596be"
           >
-            PAKET
+            PAKET {product.package}x
           </Button>
         </ProductWrapper>
       </ComponentContainer>

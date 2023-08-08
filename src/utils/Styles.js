@@ -1,11 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import { View, Text, Image, TouchableOpacity } from "react-native";
+import { Button } from "react-native-paper";
 
 export const WrapperFull = styled(View)``;
 
 export const FlatListContainer = styled(View)`
   height: 100%;
+  align-items: center;
 `;
 
 export const OrderContainer = styled(TouchableOpacity)`
@@ -94,6 +96,11 @@ export const TotalContainer = styled(View)`
 export const TotalText = styled(Text)`
   font-weight: bold;
   font-size: 16px;
+`;
+
+export const DeleteListBtn = styled(Button)`
+  width: 150px;
+  margin-bottom: 10px;
 `;
 
 export const ModalContentWrapper = ({ children }) => {

@@ -52,7 +52,6 @@ export const Cart = (props) => {
 
   const deleteItem = (itemId) => {
     deleteOrderItem(itemId);
-    console.log("AJTEM AJ DI", itemId);
   };
 
   const calculateTotalPrice = (cart) => {

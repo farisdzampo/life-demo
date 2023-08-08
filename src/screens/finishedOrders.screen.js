@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useRoute } from "@react-navigation/native";
-import { Modal } from "react-native-paper";
+import { Button, Modal } from "react-native-paper";
 import { View, FlatList, Image, ScrollView } from "react-native";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 import {
   WrapperFull,
   OrderContainer,
@@ -17,6 +18,7 @@ import {
   TotalText,
   ModalContentWrapper,
   FlatListContainer,
+  DeleteListBtn,
 } from "../utils/Styles";
 
 export const FinishedOrdersScreen = () => {
@@ -41,7 +43,43 @@ export const FinishedOrdersScreen = () => {
 
   const handleAddValue = () => {
     if (cartInfo && Array.isArray(cartInfo) && cartInfo.length > 0) {
-      setInputtedValues((prevValues) => [...prevValues, cartInfo]);
+      const updatedValues = [...inputtedValues, cartInfo];
+      setInputtedValues(updatedValues);
+
+      // Save updated values to local storage
+      AsyncStorage.setItem("inputtedValues", JSON.stringify(updatedValues))
+        .then(() => {
+          console.log("Items saved to local storage.");
+        })
+        .catch((error) => {
+          console.error("Error saving items to local storage:", error);
+        });
+    }
+  };
+
+  useEffect(() => {
+    const loadItems = async () => {
+      try {
+        const storedItems = await AsyncStorage.getItem("inputtedValues");
+        if (storedItems !== null) {
+          setInputtedValues(JSON.parse(storedItems));
+        }
+      } catch (error) {
+        console.error("Error loading items from storage:", error);
+      }
+    };
+
+    loadItems();
+  }, []);
+
+  const deleteAll = async () => {
+    const emptyList = [];
+    setInputtedValues(emptyList);
+
+    try {
+      await AsyncStorage.removeItem("inputtedValues");
+    } catch (error) {
+      console.error("Error deleting stored items from local storage:", error);
     }
   };
 
@@ -83,6 +121,13 @@ export const FinishedOrdersScreen = () => {
               </OrderContainer>
             )}
           />
+          <DeleteListBtn
+            buttonColor="#8B0000"
+            mode="contained"
+            onPress={deleteAll}
+          >
+            DELETE
+          </DeleteListBtn>
         </FlatListContainer>
       ) : (
         errorText()
