@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Coca Cola 2L",
-    "price": 2.75,
+    "price": 2.85,
     "pieces": 1,
     "package": 6,
     "image": "https://www.konzumshop.ba/images/products/031/03167351_1l.gif"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "Fanta Nar 2L",
-    "price": 2.5,
+    "price": 2.75,
     "pieces": 1,
     "package": 6,
     "image": "https://www.konzumshop.ba/images/products/031/03167364_1l.gif"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "To Narandza 2L",
-    "price": 2.55,
+    "price": 2.75,
     "pieces": 1,
     "package": 6,
     "image": "https://www.konzumshop.ba/images/products/014/01496007_1l.gif"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "Frutko Nar 1L",
-    "price": 1.1,
+    "price": 1.0,
     "pieces": 1,
     "package": 12,
     "image": "https://hercegovinavino.ba/wp-content/uploads/2021/09/Frutko-naranca-768x1024.png"
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "name": "Sar Kiseljak 1.5L",
-    "price": 1.1,
+    "price": 1.0,
     "pieces": 1,
     "package": 6,
     "image": "https://www.konzumshop.ba/images/products/031/03180015_1l.gif"
@@ -50,7 +50,7 @@
   {
     "id": 7,
     "name": "Senzacija 1.5L",
-    "price": 1.5,
+    "price": 1.45,
     "pieces": 1,
     "package": 6,
     "image": "https://www.konzumshop.ba/images/products/902/90275099_1l.gif"
@@ -58,7 +58,7 @@
   {
     "id": 8,
     "name": "Sky Cola 2L",
-    "price": 1.6,
+    "price": 1.66,
     "pieces": 1,
     "package": 6,
     "image": "https://www.konzumshop.ba/images/products/031/03160141_1l.gif"
@@ -66,7 +66,7 @@
   {
     "id": 9,
     "name": "Sky Narandza 2L",
-    "price": 1.5,
+    "price": 1.65,
     "pieces": 1,
     "package": 6,
     "image": "https://www.konzumshop.ba/images/products/031/03160142_1l.gif"
@@ -74,7 +74,7 @@
   {
     "id": 10,
     "name": "Sky Limun 2L",
-    "price": 1.5,
+    "price": 1.65,
     "pieces": 1,
     "package": 6,
     "image": "https://www.konzumshop.ba/images/products/031/03160143_1l.gif"
@@ -82,7 +82,7 @@
   {
     "id": 11,
     "name": "Vit Kruska 1.5L",
-    "price": 1.85,
+    "price": 1.69,
     "pieces": 1,
     "package": 6,
     "image": "https://www.vitinka.com/img/boce/exotic/kruska/pet-15.png"
@@ -90,7 +90,7 @@
   {
     "id": 12,
     "name": "Vit Kruska 0.5L",
-    "price": 1.05,
+    "price": 0.91,
     "pieces": 1,
     "package": 12,
     "image": "https://www.vitinka.com/img/boce/exotic/kruska/pet-15.png"
@@ -98,7 +98,7 @@
   {
     "id": 13,
     "name": "Caj Breskva 0.5L",
-    "price": 0.9,
+    "price": 0.85,
     "pieces": 1,
     "package": 12,
     "image": "https://www.e-natoci.ba/b2cadmin/files/products/images/60366345b6f6e0.88765978.png"
@@ -185,203 +185,203 @@
   },
   {
     "id": 24,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Caj Bres 1.5L",
+    "price": 1.55,
     "pieces": 1,
     "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "image": "data:image/jpeg;base64,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"
   },
   {
     "id": 25,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Caj Brus 1.5L",
+    "price": 1.55,
     "pieces": 1,
     "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "image": "data:image/jpeg;base64,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"
   },
   {
     "id": 26,
-    "name": "Fruc Ribiz 1.5L",
+    "name": "Caj Sumsko 0.5L",
     "price": 2.1,
     "pieces": 1,
     "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "image": "data:image/jpeg;base64,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"
   },
   {
     "id": 27,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Voc Kapi Jab 0.2L",
+    "price": 0.42,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 27,
+    "image": "https://d3el976p2k4mvu.cloudfront.net/medias/sys_master/h8e/ha3/8951313956894.jpg"
   },
   {
     "id": 28,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Voc Kapi Bresk 0.2L",
+    "price": 0.42,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 27,
+    "image": "https://img.ep-cdn.com/images/160/160/nv/nvwtxyeloaznmatpcmqr.jpg"
   },
   {
     "id": 29,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Voc Kapi Sumsko 0.2L",
+    "price": 0.42,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 27,
+    "image": "https://shop.sinagoga.co.rs/artikli/0204505sok-nectar-sumsko-voce-2l-vocne-kapi.gif"
   },
   {
     "id": 30,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Sveps Tangerina 1.5L",
+    "price": 2.4,
     "pieces": 1,
     "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "image": "https://www.konzumshop.ba/images/products/031/03162987_1l.gif"
   },
   {
     "id": 31,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Sveps Biter 1.5L",
+    "price": 2.4,
     "pieces": 1,
     "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "image": "https://www.konzumshop.ba/images/products/031/03163119_1l.gif"
   },
   {
     "id": 32,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Voda Lipa 5L",
+    "price": 1.2,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 5,
+    "image": "https://www.e-natoci.ba/b2cadmin/files/products/images/603663beb80fb3.66076022.png"
   },
   {
     "id": 33,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Voda Prolom 1.5L",
+    "price": 1.3,
     "pieces": 1,
     "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "image": "https://www.fairylandhealth.com/wp-content/uploads/2019/10/prolom-1.5.jpg"
   },
   {
     "id": 34,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Tes Kis 2L",
+    "price": 0.617,
     "pieces": 1,
     "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "image": "https://shop.tesco.ba/wp-content/uploads/2023/01/Screenshot_17.png"
   },
   {
     "id": 35,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Coca Cola 1.25L",
+    "price": 2.0,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 12,
+    "image": "https://us.coca-cola.com/content/dam/nagbrands/us/coke/en/value-collection/coca-cola-1.25-liter-new.png"
   },
   {
     "id": 36,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Relax Breskva Lim",
+    "price": 1.0,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 24,
+    "image": "https://cdn.shopify.com/s/files/1/2968/1670/files/natural-100-peach-apple-250ml.jpg?v=1686158575"
   },
   {
     "id": 37,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Relax Jagoda Lim",
+    "price": 1.0,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 24,
+    "image": "https://cdn.shopify.com/s/files/1/2968/1670/files/natural-100-peach-apple-250ml.jpg?v=1686158575"
   },
   {
     "id": 38,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Relax Narandza Lim",
+    "price": 1.0,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 24,
+    "image": "https://cdn.shopify.com/s/files/1/2968/1670/files/natural-100-peach-apple-250ml.jpg?v=1686158575"
   },
   {
     "id": 39,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Biscotto Mea Keks",
+    "price": 1.0,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 12,
+    "image": "https://www.biscuitpeople.com/media/cache/platform_full/c4503f2b3090dceba40676d898b22eb066a7a735.png"
   },
   {
     "id": 40,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Gorilla Energy Lim",
+    "price": 0.50,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 24,
+    "image": "https://static.parma.am/cache/product/96299/thumb_96299.jpg?v=11690413842"
   },
   {
     "id": 41,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Poli Pasteta 95g",
+    "price": 1.25,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 14,
+    "image": "https://www.perutnina.com/assets/0000-Slovenia/00-Products/Poli-poate-classic.png"
   },
   {
     "id": 42,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Varta Baterija Mala",
+    "price": 1.50,
     "pieces": 1,
-    "package": 6,
+    "package": 12,
     "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
   },
   {
     "id": 43,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Toshiba Baterija Velika",
+    "price": 1.50,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 10,
+    "image": "https://jeftini-top-proizvodi.com/wp-content/uploads/2022/10/Toshiba-baterije-AA.jpg"
   },
   {
     "id": 44,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Puding Cokolada",
+    "price": 0.50,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 4,
+    "image": "https://podravkaiovariations.azureedge.net/f4c7345e-290e-11eb-b45c-ba1fcdd37e1d/v/9ed607bc-4c1b-11ea-9bb0-92f307bc0925/450x600-9ed6ed4e-4c1b-11ea-9140-92f307bc0925.jpeg"
   },
   {
     "id": 45,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Puding Vanilija",
+    "price": 0.50,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 4,
+    "image": "https://podravkaiovariations.azureedge.net/3751454a-290e-11eb-a408-ba1fcdd37e1d/v/9ed607bc-4c1b-11ea-9bb0-92f307bc0925/450x600-9ed6ed4e-4c1b-11ea-9140-92f307bc0925.jpeg"
   },
   {
     "id": 46,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Fruitzo Jabuka 0.25L",
+    "price": 0.85,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 24,
+    "image": "https://binvest-po.com/wp-content/uploads/2023/06/244580443_4464107800377156_57951432592993000_n.jpg"
   },
   {
     "id": 47,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Fruitzo Narandza 0.25L",
+    "price": 0.85,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 24,
+    "image": "https://binvest-po.com/wp-content/uploads/2023/06/244580443_4464107800377156_57951432592993000_n.jpg"
   },
   {
     "id": 48,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Sirip Malpi 1L",
+    "price": 2.80,
     "pieces": 1,
     "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "image": "https://www.konzumshop.ba/images/products/031/03140179l.gif"
   },
   {
     "id": 49,
