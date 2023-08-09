@@ -314,7 +314,7 @@
   {
     "id": 40,
     "name": "Gorilla Energy Lim",
-    "price": 0.50,
+    "price": 0.5,
     "pieces": 1,
     "package": 24,
     "image": "https://static.parma.am/cache/product/96299/thumb_96299.jpg?v=11690413842"
@@ -330,15 +330,15 @@
   {
     "id": 42,
     "name": "Varta Baterija Mala",
-    "price": 1.50,
+    "price": 1.5,
     "pieces": 1,
     "package": 12,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "image": "https://www.konzumshop.ba/images/products/089/08974040_1l.gif"
   },
   {
     "id": 43,
     "name": "Toshiba Baterija Velika",
-    "price": 1.50,
+    "price": 1.5,
     "pieces": 1,
     "package": 10,
     "image": "https://jeftini-top-proizvodi.com/wp-content/uploads/2022/10/Toshiba-baterije-AA.jpg"
@@ -346,7 +346,7 @@
   {
     "id": 44,
     "name": "Puding Cokolada",
-    "price": 0.50,
+    "price": 0.5,
     "pieces": 1,
     "package": 4,
     "image": "https://podravkaiovariations.azureedge.net/f4c7345e-290e-11eb-b45c-ba1fcdd37e1d/v/9ed607bc-4c1b-11ea-9bb0-92f307bc0925/450x600-9ed6ed4e-4c1b-11ea-9140-92f307bc0925.jpeg"
@@ -354,7 +354,7 @@
   {
     "id": 45,
     "name": "Puding Vanilija",
-    "price": 0.50,
+    "price": 0.5,
     "pieces": 1,
     "package": 4,
     "image": "https://podravkaiovariations.azureedge.net/3751454a-290e-11eb-a408-ba1fcdd37e1d/v/9ed607bc-4c1b-11ea-9bb0-92f307bc0925/450x600-9ed6ed4e-4c1b-11ea-9140-92f307bc0925.jpeg"
@@ -378,353 +378,353 @@
   {
     "id": 48,
     "name": "Sirip Malpi 1L",
-    "price": 2.80,
+    "price": 2.8,
     "pieces": 1,
     "package": 6,
     "image": "https://www.konzumshop.ba/images/products/031/03140179l.gif"
   },
   {
     "id": 49,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Paprika Crvena 720ml",
+    "price": 3.45,
     "pieces": 1,
     "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "image": "https://shop.tesco.ba/wp-content/uploads/2021/10/paprika-crvena-720-ml.png"
   },
   {
     "id": 50,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Paprika Žuta 720ml",
+    "price": 3.2,
     "pieces": 1,
     "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "image": "https://shop.tesco.ba/wp-content/uploads/2021/10/paprika-zuta-720-1.png"
   },
   {
     "id": 51,
-    "name": "Fruc Ribiz 1.5L",
+    "name": "Cvekla 720ml",
     "price": 2.1,
     "pieces": 1,
     "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "image": "https://shop.tesco.ba/wp-content/uploads/2020/11/IMG_2563-2-scaled.jpg"
   },
   {
     "id": 52,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Marmelada Šipak 720ml",
+    "price": 4.2,
     "pieces": 1,
     "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "image": "https://www.konzumshop.ba/images/products/014/01495214l.gif"
   },
   {
     "id": 53,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Džem od šljiva 720ml",
+    "price": 4.2,
     "pieces": 1,
     "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "image": "https://www.konzumshop.ba/images/products/014/01495442l.gif"
   },
   {
     "id": 54,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Ajvar Blagi 690g",
+    "price": 4.60,
     "pieces": 1,
     "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "image": "https://www.asveleprodaja.rs/images/31383.jpg"
   },
   {
     "id": 55,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Ajvar Ljuti 690g",
+    "price": 4.60,
     "pieces": 1,
     "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "image": "https://www.asveleprodaja.rs/images/31383.jpg"
   },
   {
     "id": 56,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Boni Toalet Papir XXL 3sloja",
+    "price": 4.30,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 12,
+    "image": "https://elakolije.rs/slike_pro/pro_v_1328658.jpg"
   },
   {
     "id": 57,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Lenny Toalet Papir 10/1",
+    "price": 2.90,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 12,
+    "image": "https://shop.tesco.ba/wp-content/uploads/2021/11/Screenshot_19.png"
   },
   {
     "id": 58,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Boni Ubrus JUMBO",
+    "price": 1.95,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 15,
+    "image": "https://shop.tesco.ba/wp-content/uploads/2021/11/Screenshot_15.png"
   },
   {
     "id": 59,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Boni Salvete 100/1",
+    "price": 1.24,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 20,
+    "image": "https://www.ideaonline.me/images/products/526/526000112_1l.jpg?1513868005"
   },
   {
     "id": 60,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Vlazne maramice hrana mace 415g",
+    "price": 1.35,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 5,
+    "image": "https://www.asefkozmetik.com/image/cache/catalog/Klerax/1_pet_evcil_hayvan_%C4%B1slak_mendil_wet_wipes-250x250.jpg"
   },
   {
     "id": 61,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Cokoladni Bombon Minuts 100g",
+    "price": 0.70,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 12,
+    "image": "https://www.swisslion-takovo.com/wp-content/uploads/2019/04/Mini-Mix-300g-1.jpg"
   },
   {
     "id": 62,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Kikiriki Timi 50g",
+    "price": 0.42,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 30,
+    "image": "https://www.vocar.ba/wp-content/uploads/2020/07/Kikiriki-TIMI-50-g-metalizirani.png"
   },
   {
     "id": 63,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Kikiriki Timi 100g",
+    "price": 0.82,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 30,
+    "image": "https://www.vocar.ba/wp-content/uploads/2020/07/Kikiriki-TIMI-50-g-metalizirani.png"
   },
   {
     "id": 64,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Kroasan Bonucci 40g",
+    "price": 0.42,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 20,
+    "image": "http://www.bonuccisweet.com/admin/resimler/511-.png"
   },
   {
     "id": 65,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Biskvit Bona Bonucci 35g",
+    "price": 0.42,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 24,
+    "image": "http://www.bonuccisweet.com/admin/resimler/760-.png"
   },
   {
     "id": 66,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Cokolada Dream Bonucci 40g",
+    "price": 0.42,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 24,
+    "image": "http://www.bonuccisweet.com/admin/resimler/604-.png"
   },
   {
     "id": 67,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Keks Blake Bonucci 60g",
+    "price": 0.42,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 24,
+    "image": "http://www.bonuccisweet.com/admin/resimler/215-.png"
   },
   {
     "id": 68,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Rolat Minito Bonucci 45g",
+    "price": 0.42,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 24,
+    "image": "http://www.bonuccisweet.com/admin/resimler/974-.png"
   },
   {
     "id": 69,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Cokoladni Suffle Bonucci 55g",
+    "price": 0.42,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 24,
+    "image": "http://www.bonuccisweet.com/admin/resimler/819-.png"
   },
   {
     "id": 70,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Kisele Bombone 25g",
+    "price": 0.42,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 24,
+    "image": "https://www.durukan.com.tr/wp-content/uploads/2022/12/UToo-Sour-Packshots3.png"
   },
   {
     "id": 71,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Tecna Cokoladna Krema 25g",
+    "price": 0.42,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 24,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAHLvJuYOyjmBjzUnxBMZQ37aF1M0CKEF34g&usqp=CAU"
   },
   {
     "id": 72,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Cokoladno Jaje 23g",
+    "price": 0.42,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 12,
+    "image": "https://i.etsystatic.com/32588345/r/il/4cbc1a/3754495323/il_570xN.3754495323_4fb8.jpg"
   },
   {
     "id": 73,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Kornet cokolada 25g",
+    "price": 0.42,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 24,
+    "image": "https://candycargo.co.uk/cdn/shop/products/SWE154.png?v=1671211109"
   },
   {
     "id": 74,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Lizalo Šareno Boja 8g",
+    "price": 0.09,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 100,
+    "image": "https://www.alexim.ro/wp-content/uploads/2021/06/ACADEA_PIXI_POPS_8GR_120_B_CUT__COLOR_LIMBA.png"
   },
   {
     "id": 75,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Lizalo Cokoladno 22g",
+    "price": 0.83,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 24,
+    "image": "https://i.ytimg.com/vi/G6LByvs5n70/mqdefault.jpg"
   },
   {
     "id": 76,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Cips Maxi Timi 30g",
+    "price": 0.47,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 40,
+    "image": "https://i0.wp.com/www.vocar.ba/wp-content/uploads/2020/07/Chips-TIMI-MAXI-Ketchap-30-g.png?fit=478%2C522&ssl=1"
   },
   {
     "id": 77,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Cips Timi Slani 30g",
+    "price": 0.47,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 40,
+    "image": "https://i0.wp.com/www.vocar.ba/wp-content/uploads/2020/07/Chips-CLASSIC-TIMI-30-g.png?resize=300%2C300&ssl=1"
   },
   {
     "id": 78,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Cips Timi Paprika 30g",
+    "price": 0.47,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 40,
+    "image": "https://i0.wp.com/www.vocar.ba/wp-content/uploads/2020/07/Chips-TIMI-PAPRIKA-30-g.png?resize=300%2C300&ssl=1"
   },
   {
     "id": 79,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Dolce Caffe 3u1 20kom",
+    "price": 3.85,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 12,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT17OQtjV8nMv5dreax5qyI9AHgkg3ICtwZJiSeiddSxf7dToB4J1JeodWsG3Ggticr_lU&usqp=CAU"
   },
   {
     "id": 80,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Bananice Kandit 280g",
+    "price": 2.50,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 15,
+    "image": "https://www.kandit.hr/media/1139/chocobanana-original-280g-643x469.png"
   },
   {
     "id": 81,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Kompot Breskva Polovine 820ml",
+    "price": 3.80,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 12,
+    "image": "https://www.ppkbjelovar.com/EasyEdit/UserFiles/Catalog/kompot-breskva-820g-19323/kompot-breskva-820g-19323-637391056805553144_708_708@2x.jpeg"
   },
   {
     "id": 82,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Kompot Ananas Komadici 620ml",
+    "price": 3.30,
     "pieces": 1,
     "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "image": "https://www.konzumshop.ba/images/products/014/01470029.gif"
   },
   {
     "id": 83,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Apetito Zacin Vegeta 250g",
+    "price": 1.15,
     "pieces": 1,
     "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "image": "https://leburickomerc.com/wp-content/uploads/2019/12/ApetitoDodatakJelima500gr.png"
   },
   {
     "id": 84,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Apetito Zacin Vegeta 500g",
+    "price": 2.50,
     "pieces": 1,
     "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "image": "https://leburickomerc.com/wp-content/uploads/2019/12/ApetitoDodatakJelima500gr-2.png"
   },
   {
     "id": 85,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Apetito Zacin Vegeta 1kg",
+    "price": 4.00,
     "pieces": 1,
     "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "image": "https://leburickomerc.com/wp-content/uploads/2019/12/ApetitoDodatakJelima500gr-2.png"
   },
   {
     "id": 86,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Sampinjoni Iska 212ml",
+    "price": 1.25,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 20,
+    "image": "https://www.konzumshop.ba/images/products/016/01600066m.gif"
   },
   {
     "id": 87,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Krastavac Vocar 2500ml",
+    "price": 6.20,
     "pieces": 1,
     "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "image": "https://shop.sinagoga.co.rs/artikli/20348sinagoga-letak-11-8jutro_page_3_image_0047.jpg"
   },
   {
     "id": 88,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Supa Aleva kokošija 43g",
+    "price": 0.62,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 5,
+    "image": "https://www.konzumshop.ba/images/products/041/04100811_1l.gif"
   },
   {
     "id": 89,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Supa Aleva Goveđa 43g",
+    "price": 0.62,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 5,
+    "image": "https://www.konzumshop.ba/images/products/041/04100810_1l.gif"
   },
   {
     "id": 90,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Skuša Žuvela Fileti 100g",
+    "price": 1.50,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 5,
+    "image": "https://plitvicemarketi.rs/images/thumbs/0010931_sardina-zuvela-100g_511.jpeg "
   },
   {
     "id": 91,
-    "name": "Fruc Ribiz 1.5L",
-    "price": 2.1,
+    "name": "Sardina s Povrćem 100g",
+    "price": 1.40,
     "pieces": 1,
-    "package": 6,
-    "image": "https://www.fructal.si/img/products/slide_fruc_crni_ribez_aronija_15.png"
+    "package": 5,
+    "image": "https://plitvicemarketi.rs/images/thumbs/0010930_sardina-marco-polo-100g_511.png"
   }
 ]

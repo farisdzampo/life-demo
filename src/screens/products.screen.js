@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState, useMemo, useCallback } from "react";
 import { useRoute } from "@react-navigation/native";
 import { View, FlatList } from "react-native";
 import Search from "../components/searchbar.component";
@@ -13,13 +13,23 @@ export const ProductsScreen = () => {
   const storeName = route.params?.subject;
   const [filteredProducts, setFilteredProducts] = useState(productsData);
 
-  const handleSearch = (keyword) => {
+  // const handleSearch = (keyword) => {
+  //   const filtered = productsData.filter((product) =>
+  //     product.name.toLowerCase().includes(keyword.toLowerCase())
+  //   );
+  //   setFilteredProducts(filtered);
+  // };
+
+  const renderItem = useMemo(() => {
+    return ({ item }) => <SingleProduct product={item} storeName={storeName} />;
+  }, [storeName]);
+
+  const handleSearch = useCallback((keyword) => {
     const filtered = productsData.filter((product) =>
       product.name.toLowerCase().includes(keyword.toLowerCase())
     );
     setFilteredProducts(filtered);
-  };
-
+  }, []);
   // const { order, cart, addOrderItem, deleteOrder } = useOrderContext();
 
   // const handleAddToCart = (storeName, product) => {
@@ -31,9 +41,7 @@ export const ProductsScreen = () => {
       <Search onSearch={handleSearch} />
       <FlatList
         data={filteredProducts}
-        renderItem={({ item }) => (
-          <SingleProduct product={item} storeName={storeName} />
-        )}
+        renderItem={renderItem}
         keyExtractor={(item) => item.id.toString()}
         numColumns={2}
       />
