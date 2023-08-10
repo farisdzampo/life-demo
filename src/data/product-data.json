@@ -726,5 +726,613 @@
     "pieces": 1,
     "package": 5,
     "image": "https://plitvicemarketi.rs/images/thumbs/0010930_sardina-marco-polo-100g_511.png"
+  },
+  {
+    "id": 92,
+    "name": "Pionir Cokolada za Kuhanje 100g",
+    "price": 1.22,
+    "pieces": 1,
+    "package": 20,
+    "image": "https://shop.powerdoo.info/wp-content/uploads/2021/04/proizvodi_polozeno-437x310-pionir-kuvanje-100g.jpg"
+  },
+  {
+    "id": 93,
+    "name": "Pionir Cokolada za Kuhanje 200g",
+    "price": 2.10,
+    "pieces": 1,
+    "package": 20,
+    "image": "https://shop.powerdoo.info/wp-content/uploads/2021/04/proizvodi_polozeno-437x310-pionir-kuvanje-100g.jpg"
+  },
+  {
+    "id": 94,
+    "name": "Kakao Tabla Gold 100g",
+    "price": 0.75,
+    "pieces": 1,
+    "package": 12,
+    "image": "https://vp.bosicdoo.com/images/products/5-kakao-krem-tabla-gold-100g-2.png"
+  },
+  {
+    "id": 95,
+    "name": "Kakao Tabla Gold 200g",
+    "price": 1.50,
+    "pieces": 1,
+    "package": 12,
+    "image": "https://vp.bosicdoo.com/images/products/6-kakao-krem-tabla-gold-200g-1.png"
+  },
+  {
+    "id": 96,
+    "name": "Cokolada Kuhanje Naris 100g",
+    "price": 0.90,
+    "pieces": 1,
+    "package": 12,
+    "image": "https://leburickomerc.com/wp-content/uploads/2019/11/06690ae32177fd6321161a87dc5b12a0_LogoNoviT301.png"
+  },
+  {
+    "id": 97,
+    "name": "Cokolada Riza Riki 200g",
+    "price": 2.92,
+    "pieces": 1,
+    "package": 12,
+    "image": "https://www.konzumshop.ba/images/products/042/04210456_1l.gif"
+  },
+  {
+    "id": 98,
+    "name": "Caramel Nouga Cokoladica",
+    "price": 0.20,
+    "pieces": 1,
+    "package": 24,
+    "image": "https://goldenstarstrading.com/wp-content/uploads/2021/10/photo_2021-10-07_20-42-52.jpg"
+  },
+  {
+    "id": 99,
+    "name": "Lizalo Kesa 100/1",
+    "price": 0.082,
+    "pieces": 1,
+    "package": 100,
+    "image": "https://jackscandy.com/cdn/shop/products/11101_01_canels_assorted_lollipop_100ct_800x.jpg?v=1654800475"
+  },
+  {
+    "id": 100,
+    "name": "Gumene Bombone Sorto 36/1",
+    "price": 0.195,
+    "pieces": 1,
+    "package": 36,
+    "image": "https://productimages.hepsiburada.net/s/54/1500/11179707498546.jpg"
+  },
+  {
+    "id": 101,
+    "name": "Pionir Minjon Kocke 260g",
+    "price": 3.50,
+    "pieces": 1,
+    "package": 12,
+    "image": "https://www.a-pionir.com/pub/catalog/kocka_nova.jpg"
+  },
+  {
+    "id": 102,
+    "name": "Pionir Napolitanke Cokolada 160g",
+    "price": 1.40,
+    "pieces": 1,
+    "package": 12,
+    "image": "https://online.idea.rs/images/products/440/440105064_1l.jpg?1626358518"
+  },
+  {
+    "id": 103,
+    "name": "Pionir Napolitanke Mlijeko 160g",
+    "price": 1.40,
+    "pieces": 1,
+    "package": 12,
+    "image": "https://www.a-pionir.com/pub/catalog/proizvodi_polozeno-1276x215-medene-napolitanke-mleko.jpg"
+  },
+  {
+    "id": 104,
+    "name": "Cokolada Galeb Mlijecna 80g",
+    "price": 1.15,
+    "pieces": 1,
+    "package": 12,
+    "image": "https://shop.powerdoo.info/wp-content/uploads/2021/04/442001213_1l.jpg"
+  },
+  {
+    "id": 105,
+    "name": "Cokolada Galeb Punjenje 80g",
+    "price": 1.15,
+    "pieces": 1,
+    "package": 12,
+    "image": "https://www.ideaonline.me/images/products/442/442000116_1l.jpg?1619421969"
+  },
+  {
+    "id": 106,
+    "name": "Cokolada Dado Kandit 90g",
+    "price": 1.20,
+    "pieces": 1,
+    "package": 12,
+    "image": "https://www.konzumshop.ba/images/products/040/04025075_1m.gif"
+  },
+  {
+    "id": 92,
+    "name": "Cokolada Goga Kandit 90g",
+    "price": 1.20,
+    "pieces": 1,
+    "package": 12,
+    "image": "https://www.konzumshop.ba/images/products/040/04025074_1l.gif"
+  },
+  {
+    "id": 107,
+    "name": "Pariz Keks original 300g",
+    "price": 2.55,
+    "pieces": 1,
+    "package": 20,
+    "image": ""
+  },
+  {
+    "id": 108,
+    "name": "Pariz Keks Limun 300g",
+    "price": 2.55,
+    "pieces": 1,
+    "package": 20,
+    "image": "https://www.koestlin.hr/img/products/Koestlin-Keks-Paris-Lemon-300.png"
+  },
+  {
+    "id": 109,
+    "name": "Pariz Keks Kakao 300g",
+    "price": 2.75,
+    "pieces": 1,
+    "package": 20,
+    "image": "https://www.koestlin.hr/img/products/Koestlin-PunjenaCajna-Paris-Cocoa-225.png"
+  },
+  {
+    "id": 110,
+    "name": "Pionir Mentol Bombone 100g",
+    "price": 0.75,
+    "pieces": 1,
+    "package": 30,
+    "image": "https://www.a-pionir.com/pub/catalog/menthol_novi_novi.jpg"
+  },
+  {
+    "id": 111,
+    "name": "Pionir Negro Bombone",
+    "price": 1.15,
+    "pieces": 1,
+    "package": 30,
+    "image": "https://www.pionir.rs/pub/catalog/n1-negro_bez_100g.jpg"
+  },
+  {
+    "id": 112,
+    "name": "Nom Nom Keks 150g",
+    "price": 1.20,
+    "pieces": 1,
+    "package": 12,
+    "image": "https://online.idea.rs/images/products/440/440105871_1l.jpg?1548349857"
+  },
+  {
+    "id": 113,
+    "name": "Zele Bombone Jojo 700g",
+    "price": 5.20,
+    "pieces": 1,
+    "package": 5,
+    "image": "https://eviza.com.tr/wp-content/uploads/2022/02/turkishdelight1kg-300x300.png"
+  },
+  {
+    "id": 114,
+    "name": "Gumene Bombone Sticks 120kom",
+    "price": 0.04875,
+    "pieces": 1,
+    "package": 120,
+    "image": "https://productimages.hepsiburada.net/s/73/375/110000014681050.jpg"
+  },
+  {
+    "id": 115,
+    "name": "Zele Bomboni Zuti 200g",
+    "price": 1.80,
+    "pieces": 1,
+    "package": 12,
+    "image": "https://m.media-amazon.com/images/I/61yDU94HA5L.jpg"
+  },
+  {
+    "id": 116,
+    "name": "Zele Bomboni Crveni 200g",
+    "price": 1.80,
+    "pieces": 1,
+    "package": 12,
+    "image": "https://m.media-amazon.com/images/I/61b-Q8DH5TL.jpg"
+  },
+  {
+    "id": 117,
+    "name": "Zele Bomboni Narandžasti 200g",
+    "price": 1.80,
+    "pieces": 1,
+    "package": 12,
+    "image": "https://m.media-amazon.com/images/I/61yDU94HA5L.jpg"
+  },
+  {
+    "id": 118,
+    "name": "Roshen cokolada tamna 80g",
+    "price": 1.35,
+    "pieces": 1,
+    "package": 12,
+    "image": "https://naturespocket.ie/wp-content/uploads/2023/07/roshen-dark-bubble-chocolate-800x533.jpg"
+  },
+  {
+    "id": 119,
+    "name": "Roshen cokolada mlijecna 80g",
+    "price": 1.35,
+    "pieces": 1,
+    "package": 12,
+    "image": "https://balticsupermart.com/cdn/shop/products/IMG_20210522_215034_580x.png?v=1621709463"
+  },
+  {
+    "id": 120,
+    "name": "Roshen cokolada ljesnjak 90g",
+    "price": 1.20,
+    "pieces": 1,
+    "package": 12,
+    "image": "https://balticsupermart.com/cdn/shop/products/IMG_20211027_150144_580x.jpg?v=1635327813"
+  },
+  {
+    "id": 121,
+    "name": "Crazy Bee Zele Bomboni 200g",
+    "price": 1.95,
+    "pieces": 1,
+    "package": 10,
+    "image": "https://i5.walmartimages.com/asr/f749cbcd-4bf7-4a64-a6ab-fcf2d4347f93.94fb302630749627bfdfe6b1b72dacfd.png"
+  },
+  {
+    "id": 122,
+    "name": "Zele Bomboni Roshen 200g",
+    "price": 1.65,
+    "pieces": 1,
+    "package": 10,
+    "image": "https://m.ebag.bg/en/products/images/111580/800"
+  },
+  {
+    "id": 123,
+    "name": "Limuntos Rima Pak 50g",
+    "price": 0.68,
+    "pieces": 1,
+    "package": 30,
+    "image": "https://rimapak.ba/wp-content/uploads/2022/08/Limuntos-50-gr.png"
+  },
+  {
+    "id": 124,
+    "name": "Mlijeko u Prahu Rima 250g",
+    "price": 2.20,
+    "pieces": 1,
+    "package": 10,
+    "image": "https://rimapak.ba/wp-content/uploads/2022/08/Mlijeko-u-prahu-1000g.png"
+  },
+  {
+    "id": 125,
+    "name": "Slag Pjena Rima 120g",
+    "price": 1.89,
+    "pieces": 1,
+    "package": 10,
+    "image": "https://rimapak.ba/wp-content/uploads/2022/08/Slag-kutija-120-gr.png"
+  },
+  {
+    "id": 126,
+    "name": "Zelatin Rima Pak 10g",
+    "price": 0.55,
+    "pieces": 1,
+    "package": 30,
+    "image": "https://rimapak.ba/wp-content/uploads/2022/08/Zelatin-10-gr.png"
+  },
+  {
+    "id": 127,
+    "name": "Zelatin Rima Pak 30g",
+    "price": 1.37,
+    "pieces": 1,
+    "package": 15,
+    "image": "https://rimapak.ba/wp-content/uploads/2022/08/Zelatin-30gr.png"
+  },
+  {
+    "id": 128,
+    "name": "Bebi Griz Rima 250g",
+    "price": 0.93,
+    "pieces": 1,
+    "package": 10,
+    "image": "https://rimapak.ba/wp-content/uploads/2022/08/Bebi-Griz-250g-Kesa-1.png"
+  },
+  {
+    "id": 129,
+    "name": "Kokicar Kukuruz Rima 10kg",
+    "price": 28.80,
+    "pieces": 1,
+    "package": 5,
+    "image": "https://rimapak.ba/wp-content/uploads/2022/08/Kokicar-250g-copy.png"
+  },
+  {
+    "id": 130,
+    "name": "Palenta Rima Pak 800g",
+    "price": 1.37,
+    "pieces": 1,
+    "package": 10,
+    "image": "https://rimapak.ba/wp-content/uploads/2022/08/Palenta-450gr.png"
+  },
+  {
+    "id": 131,
+    "name": "Gerslo Rima Pak 800g",
+    "price": 1.76,
+    "pieces": 1,
+    "package": 10,
+    "image": "https://rimapak.ba/wp-content/uploads/2022/08/Gerslo-800g.png"
+  },
+  {
+    "id": 132,
+    "name": "Riza Lotto Zelena 800g",
+    "price": 3.20,
+    "pieces": 1,
+    "package": 10,
+    "image": "https://rimapak.ba/wp-content/uploads/2022/07/Riza-Zelena-Stara-copy-1030x824.png"
+  },
+  {
+    "id": 133,
+    "name": "Riza Selenio Plava 800g",
+    "price": 2.87,
+    "pieces": 1,
+    "package": 10,
+    "image": "https://rimapak.ba/wp-content/uploads/2022/07/Riza-Plava-Stara-copy.png"
+  },
+  {
+    "id": 134,
+    "name": "Soda Bikarbona 250g",
+    "price": 0.53,
+    "pieces": 1,
+    "package": 10,
+    "image": "https://rimapak.ba/wp-content/uploads/2022/08/Soda-bikarbona-250g-1030x824.png"
+  },
+  {
+    "id": 135,
+    "name": "Soda Bikarbona 500g",
+    "price": 0.88,
+    "pieces": 1,
+    "package": 19,
+    "image": "https://rimapak.ba/wp-content/uploads/2022/08/Soda-bikarbona-250g-1030x824.png"
+  },
+  {
+    "id": 136,
+    "name": "Soda Bikarbona 1000g",
+    "price": 1.66,
+    "pieces": 1,
+    "package": 5,
+    "image": "https://rimapak.ba/wp-content/uploads/2022/08/Soda-bikarbona-1kg.png"
+  },
+  {
+    "id": 137,
+    "name": "Brasno Psenicno Integralno 800g",
+    "price": 1.32,
+    "pieces": 1,
+    "package": 10,
+    "image": "https://rimapak.ba/wp-content/uploads/2022/08/Psenicno-brasno-copy-1030x824.png"
+  },
+  {
+    "id": 138,
+    "name": "Brasno Heljda Rima 800g",
+    "price": 3.86,
+    "pieces": 1,
+    "package": 10,
+    "image": "https://rimapak.ba/wp-content/uploads/2022/08/Heljdino-brasno-copy.png"
+  },
+  {
+    "id": 139,
+    "name": "Brasno Kukuruzno 800g",
+    "price": 1.32,
+    "pieces": 1,
+    "package": 10,
+    "image": "https://rimapak.ba/wp-content/uploads/2022/08/Kukuruzno-brasno-copy.png"
+  },
+  {
+    "id": 140,
+    "name": "Biber Mljeveni Rima 10g",
+    "price": 0.29,
+    "pieces": 1,
+    "package": 30,
+    "image": "https://rimapak.ba/wp-content/uploads/2022/08/Biber-mljeveni-10g.png"
+  },
+  {
+    "id": 141,
+    "name": "Biber Mljeveni Rima 50g",
+    "price": 0.98,
+    "pieces": 1,
+    "package": 15,
+    "image": "https://rimapak.ba/wp-content/uploads/2022/08/Biber-mljeveni-50g-845x684.png"
+  },
+  {
+    "id": 142,
+    "name": "Paprika Mljevena Slatka 100g",
+    "price": 1.17,
+    "pieces": 1,
+    "package": 10,
+    "image": "https://rimapak.ba/wp-content/uploads/2022/08/Crvena-Paprika-Slatka-100gr.png"
+  },
+  {
+    "id": 143,
+    "name": "Susam Rima Pak 100g",
+    "price": 0.93,
+    "pieces": 1,
+    "package": 10,
+    "image": "https://rimapak.ba/wp-content/uploads/2022/08/Susam-100g-845x684.png"
+  },
+  {
+    "id": 144,
+    "name": "Origano Rima Pak 50g",
+    "price": 0.88,
+    "pieces": 1,
+    "package": 10,
+    "image": "https://rimapak.ba/wp-content/uploads/2022/08/Origano-50g.png"
+  },
+  {
+    "id": 145,
+    "name": "Persun Rima Pak 50g",
+    "price": 0.88,
+    "pieces": 1,
+    "package": 10,
+    "image": "https://rimapak.ba/wp-content/uploads/2022/08/Persun-50g.png"
+  },
+  {
+    "id": 146,
+    "name": "Lan Sjemenke Rima 80g",
+    "price": 0.88,
+    "pieces": 1,
+    "package": 10,
+    "image": "https://rimapak.ba/wp-content/uploads/2022/08/Lan-80gr.png"
+  },
+  {
+    "id": 147,
+    "name": "Vinobran Rima Pak 10g",
+    "price": 0.09,
+    "pieces": 1,
+    "package": 20,
+    "image": "https://rimapak.ba/wp-content/uploads/2022/08/Vinobran-10g.png"
+  },
+  {
+    "id": 148,
+    "name": "Limuntos Rima Pak 10g",
+    "price": 0.20,
+    "pieces": 1,
+    "package": 30,
+    "image": "https://rimapak.ba/wp-content/uploads/2022/08/Limuntos-10-gr.png"
+  },
+  {
+    "id": 149,
+    "name": "Konzervans Rima Pak 10g",
+    "price": 0.09,
+    "pieces": 1,
+    "package": 20,
+    "image": "https://rimapak.ba/wp-content/uploads/2022/08/Konzervans-10g.png"
+  },
+  {
+    "id": 150,
+    "name": "Prezla Rima Pak 200g",
+    "price": 0.69,
+    "pieces": 1,
+    "package": 10,
+    "image": "https://rimapak.ba/wp-content/uploads/2022/08/Prezla-200-g-lezeca-Kesa.png"
+  },
+  {
+    "id": 151,
+    "name": "Prezla Rima Pak 400g",
+    "price": 1.09,
+    "pieces": 1,
+    "package": 10,
+    "image": "https://rimapak.ba/wp-content/uploads/2022/08/Prezla-400-g-2-845x684.png"
+  },
+  {
+    "id": 152,
+    "name": "Grozdjice Rima Pak 100g",
+    "price": 0.70,
+    "pieces": 1,
+    "package": 10,
+    "image": "https://rimapak.ba/wp-content/uploads/2022/08/Grozdjice-100gr.png"
+  },
+  {
+    "id": 153,
+    "name": "Nisesta Rima Pak 300g",
+    "price": 1.35,
+    "pieces": 1,
+    "package": 10,
+    "image": "https://rimapak.ba/wp-content/uploads/2022/08/Nisesta-300gr.png"
+  },
+  {
+    "id": 154,
+    "name": "Soda Bikarbona Rima 40g",
+    "price": 0.65,
+    "pieces": 1,
+    "package": 10,
+    "image": "https://rimapak.ba/wp-content/uploads/2022/08/Soda-bikarbona-40g-3.png"
+  },
+  {
+    "id": 155,
+    "name": "",
+    "price": 1.40,
+    "pieces": 1,
+    "package": 5,
+    "image": ""
+  },
+  {
+    "id": 156,
+    "name": "",
+    "price": 1.40,
+    "pieces": 1,
+    "package": 5,
+    "image": ""
+  },
+  {
+    "id": 157,
+    "name": "",
+    "price": 1.40,
+    "pieces": 1,
+    "package": 5,
+    "image": ""
+  },
+  {
+    "id": 158,
+    "name": "",
+    "price": 1.40,
+    "pieces": 1,
+    "package": 5,
+    "image": ""
+  },
+  {
+    "id": 159,
+    "name": "",
+    "price": 1.40,
+    "pieces": 1,
+    "package": 5,
+    "image": ""
+  },
+  {
+    "id": 160,
+    "name": "",
+    "price": 1.40,
+    "pieces": 1,
+    "package": 5,
+    "image": ""
+  },
+  {
+    "id": 161,
+    "name": "",
+    "price": 1.40,
+    "pieces": 1,
+    "package": 5,
+    "image": ""
+  },
+  {
+    "id": 162,
+    "name": "",
+    "price": 1.40,
+    "pieces": 1,
+    "package": 5,
+    "image": ""
+  },
+  {
+    "id": 163,
+    "name": "",
+    "price": 1.40,
+    "pieces": 1,
+    "package": 5,
+    "image": ""
+  },
+  {
+    "id": 164,
+    "name": "",
+    "price": 1.40,
+    "pieces": 1,
+    "package": 5,
+    "image": ""
+  },
+  {
+    "id": 165,
+    "name": "",
+    "price": 1.40,
+    "pieces": 1,
+    "package": 5,
+    "image": ""
+  },
+  {
+    "id": 166,
+    "name": "",
+    "price": 1.40,
+    "pieces": 1,
+    "package": 5,
+    "image": ""
   }
 ]
