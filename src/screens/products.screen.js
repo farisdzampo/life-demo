@@ -13,13 +13,6 @@ export const ProductsScreen = () => {
   const storeName = route.params?.subject;
   const [filteredProducts, setFilteredProducts] = useState(productsData);
 
-  // const handleSearch = (keyword) => {
-  //   const filtered = productsData.filter((product) =>
-  //     product.name.toLowerCase().includes(keyword.toLowerCase())
-  //   );
-  //   setFilteredProducts(filtered);
-  // };
-
   const renderItem = useMemo(() => {
     return ({ item }) => <SingleProduct product={item} storeName={storeName} />;
   }, [storeName]);
@@ -30,11 +23,6 @@ export const ProductsScreen = () => {
     );
     setFilteredProducts(filtered);
   }, []);
-  // const { order, cart, addOrderItem, deleteOrder } = useOrderContext();
-
-  // const handleAddToCart = (storeName, product) => {
-  //   addOrderItem(storeName, product);
-  // };
 
   return (
     <SafeArea>
